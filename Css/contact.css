@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:700');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+.title{
+  width:100%;
+  text-align: center;
+}
+.title h1{
+  font-size:50px;
+  font-family: 'Exo', sans-serif;
+}
+
+/* ////// */
+.h3-contact{
+  font-size:25px;
+  font-family: 'Abel', sans-serif;
+  transform: translatey(10px);
+}
+/* /////// */
+.p-contact{
+  
+  font-family: 'Abel', sans-serif;
+  text-align:center;
+  width:220px;
+  transform: translatex(12px);
+}
+
+
+
+
+.card3 {
+  text-align:center;
+    z-index: 500;
+  width: 250px;
+  height: 350px;
+
+  transition:.6s;
+  
+  transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+.card3:hover{
+   transform: rotatex(0deg);
+  transition:.6s;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+.card3 img{
+  transform: translateY(15px);
+ 
+}
